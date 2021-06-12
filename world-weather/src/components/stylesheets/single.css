@@ -1,0 +1,125 @@
+.section{
+    height: 70vh;
+}
+
+.sHead{
+    
+position: relative;
+width: 1332px;
+height: 65px;
+left: 50%;
+transform: translate(-50%);
+top: 50px;
+display: flex;
+background: conic-gradient(from 95.64deg at 0% 1.99%, #FFFFFF -250.42deg, rgba(255, 255, 255, 0.158) 12.4deg, #FFFFFF 109.58deg, rgba(255, 255, 255, 0) 372.4deg), #BBAFAF;
+border: 3px solid #d6c6c6;
+box-sizing: border-box;
+box-shadow: 3px 6px 2px -3px rgba(0, 0, 0, 0.25), inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+justify-content: center;
+
+}
+
+.sHead p{
+    background: none;
+    display: flex;
+    position: absolute;
+width: 800px;
+height: 57px;
+ justify-content: center;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 57px;
+/* identical to box height */
+
+
+color: #3E3636;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrow {
+    background: none;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.flag {
+    position: absolute;
+
+}
+
+.container01{
+    
+    position: absolute;
+    background: none;
+    top: 270px;
+    left: 5px;
+}
+
+.parent{
+    position: relative;
+    background: none;
+    
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 400px;
+    left: 31vh;
+    top: 8vh;
+}
+
+.parent h2{
+    color: #3E3636;
+    margin-top: 5px;
+}
+.parent h2 li{
+    position: relative;
+    background: none;
+    top: -3.3vh;
+    left: 14vh;
+    color: #3E3636;
+    margin-top: 5px;
+    list-style: none;
+}
+.parent span{
+    font-weight: bold;
+    color: #1f1f1f;
+}
+
+.parent2{
+    position: relative;
+    top: -72.5vh;
+    left: 78vh;
+width: 891px;
+height: 477px;
+
+
+background: conic-gradient(from 95.64deg at 0% 1.99%, #FFFFFF -250.42deg, rgba(255, 255, 255, 0) 12.4deg, #FFFFFF 109.58deg, rgba(255, 255, 255, 0) 372.4deg), #BBAFAF;
+border: 3px solid #d6c6c6;
+box-sizing: border-box;
+box-shadow: 3px 6px 2px -3px rgba(0, 0, 0, 0.25), inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.parent2 h2{
+    position: absolute;
+    color: #3E3636;
+    font-weight: bolder;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1vh;
+    background: none;
+}
+
+.weather{
+    position: absolute;
+    background: none;
+    top: 5vh;
+    left: 37vh;
+}

@@ -1,0 +1,68 @@
+.list{
+    position: relative;
+    margin: 10px;
+    width: 258px;
+    height: 270px;
+
+background: conic-gradient(from 95.64deg at 0% 1.99%, #FFFFFF -250.42deg, rgba(255, 255, 255, 0) 12.4deg, #FFFFFF 109.58deg, rgba(255, 255, 255, 0) 372.4deg), #BBAFAF;
+border: 3px solid #3E3636;
+box-sizing: border-box;
+box-shadow: 3px 4px 2px -1px rgba(0, 0, 0, 0.25), inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+
+
+}
+
+
+
+.listChild{
+    position: absolute;
+    list-style: none;
+    background: none;
+    left: 0px;
+    flex: 1 0 21%;
+    height: 250px;
+    width: 250px;
+
+}
+.img{
+    position: absolute;
+    background: none;
+    margin: 10px;
+    padding: 0px;
+    width: 230px;
+    height: 120px;
+   
+}
+
+.Cname{
+    position: absolute;
+    background: none;
+    width: 200px;
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+top: 55%;
+left: 50%;
+transform: translate(-50%);
+
+
+color: #3E3636;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pList{
+    position: relative;
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
