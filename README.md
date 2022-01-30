@@ -2,7 +2,7 @@
 - 👀 I’m interested in web development
 - 🌱 I’m currently learning React js and Node js
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ... (portfolio webpage coming soon)
+- 📫 How to reach me ... shubhdeeps.github.io/s
 
 <!---
 Shubhdeeps/Shubhdeeps is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
